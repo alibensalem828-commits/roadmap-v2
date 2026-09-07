@@ -1,6 +1,11 @@
 .nav {
-    display:flex;
-    justify-content: space-between;
-    background-color: red;
+display: flex;
+justify-content: space-between;
     align-items: center;
+    background-color: red;
+ 
+    gap: 16px;
+}
+li {
+    box-flex: left;
 }
