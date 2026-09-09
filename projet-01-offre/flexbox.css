@@ -1,11 +1,17 @@
-.nav {
-display: flex;
-justify-content: space-between;
-    align-items: center;
+
+@media(min-width:600px) {
+    
+
+.bloc1{
     background-color: red;
- 
-    gap: 16px;
 }
-li {
-    box-flex: left;
+
+.bloc2{background-color: blue;
+gap: 15px;}
+    
+.bloc3{
+    background-color: violet;
+}
+
+.bloc4{background-color: black;}
 }
