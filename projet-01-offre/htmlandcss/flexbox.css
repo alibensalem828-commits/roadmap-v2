@@ -1,0 +1,8 @@
+.body{display: flex;}
+.block{
+
+    background-color: blue;
+    height: 200px;
+    width: 200px;
+    font-size: 40pt;
+}

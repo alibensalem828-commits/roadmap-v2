@@ -1,0 +1,147 @@
+css
+/* =================================
+   BASE
+   ================================= */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 20px;
+
+    font-family: Arial, sans-serif;
+
+    background-color: #eeeeee;
+}
+
+
+/* =================================
+   EXERCICE A — IMAGE
+   ================================= */
+
+.image-container {
+    width: 300px;
+
+    background-color: lightblue;
+
+    padding: 10px;
+}
+
+
+/*
+    POUR L'INSTANT :
+
+    Ne mets rien ici.
+
+    Ouvre la page et regarde le bug.
+
+    Puis cherche comment faire pour que
+    l'image ne dépasse pas du conteneur.
+
+    Attention :
+    PAS de width: 300px sur l'image.
+*/
+
+.image-container img {
+
+}
+
+
+/* =================================
+   EXERCICE B — GALERIE
+   ================================= */
+
+.gallery {
+
+    /* Mobile-first */
+
+    display: grid;
+
+    grid-template-columns: 1fr;
+
+    gap: 15px;
+}
+
+
+.gallery div {
+
+    height: 100px;
+
+    background-color: orange;
+
+    display: flex;
+
+    justify-content: center;
+
+    align-items: center;
+
+    font-size: 30px;
+}
+
+
+/* =================================
+   À 600px
+   ================================= */
+
+
+
+/* =================================
+   À 900px
+   ================================= */
+
+
+/* =================================
+   RÉVISION
+   ================================= */
+
+.revision {
+
+    background-color: white;
+
+    padding: 20px;
+
+    margin-top: 20px;
+
+    border: 2px solid black;
+
+    border-radius: 10px;
+}
+
+
+/* =================================
+   PETITES NOUVEAUTÉS
+   ================================= */
+
+/*
+    Une fois A et B terminés,
+    essaie de découvrir ces propriétés :
+
+    :hover
+    transition
+    box-shadow
+    transform
+    opacity
+
+    Exemple :
+
+    button:hover {
+        ...
+    }
+*/
+
+button {
+
+    padding: 10px 20px;
+
+    border: none;
+
+    border-radius: 5px;
+    background-color: black;
+
+    color: white;
+
+    cursor: pointer;
+}
+

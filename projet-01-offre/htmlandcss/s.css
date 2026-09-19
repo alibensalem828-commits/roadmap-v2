@@ -1,0 +1,13 @@
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  
+  height: 80px;
+  border: 2px solid red;
+}
+.liens {
+  display: flex;
+  flex-direction: column;
+}
